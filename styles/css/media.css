@@ -1,0 +1,2231 @@
+@media(max-width: 1279px){
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.navigation--logo {
+		margin-right: 33px;
+	}
+	.navigation--logo img {
+		width: 128px;
+		height: 30px;
+	}
+	.navigation--left li:not(:last-child) {
+		margin-right: 33px;
+	}
+	.footer .navigation--left {
+		margin-right: 33px;
+	}
+	.navigation--left li a {
+		font-size: 18px;
+	}
+	.navigation--right .navigation--tel {
+		font-size: 18px;
+	}
+	.navigation--right .navigation--tel:not(:last-child) {
+		margin-right: 33px;
+	}
+	.navigation--right .navigation--login {
+		font-size: 18px;
+		padding-right: 40px;
+	}
+	.navigation--right .navigation--login:after {
+		width: 27px;
+		height: 25px
+	}
+	
+	.banner--satisfied {
+		min-width: 360px;
+	}
+	.banner--satisfied__percent {
+		font-size: 51px;
+	}
+	.banner--satisfied__text {
+		font-size: 20px
+	}
+	/*==================================*/
+	/*Стартовая страница*/
+	/*==================================*/
+	.middle--left {
+		max-width: 457px;
+		padding-right: 34px;
+	}
+	.middle--left h2 {
+		font-size: 40px;
+	}
+	.middle--left h3 {
+		font-size: 25px;
+	}
+	/*==================================*/
+	/*Все тренера*/
+	/*==================================*/
+	.filter_section {
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.filter_section--row .filter--col {
+		margin-bottom: 19px;
+	}
+	.tren--col {
+		width: 33.333333333%
+	}
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.user_sidebar {
+		width: 100%;
+		order: 2;
+	}
+	.user_sidebar--top {
+		position: relative;
+		left: 0;
+		top: 0;
+		padding-right: 350px;
+		
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-ms-flex-align: center;
+		align-items: center;
+		
+		border-bottom: 1px solid #d5dbe5;
+	}
+	.user_sidebar .mobile__menu--user {
+		position: absolute;
+		left: 301px;
+		right: 15px;
+		top: 0;
+	}
+	.user_sidebar .tren_balance {
+		position: absolute;
+		left: 286px;
+		right: 0;
+		bottom: 0;
+		top: auto;
+		top: unset;
+		top: none;
+	}
+	.user_sidebar .mobile__menu--links {
+		width: 286px;
+		border-right: 1px solid #d5dbe5;
+		margin-bottom: -1px
+	}
+	
+	.users_inner {
+		order: 1;
+		padding: 35px 0;
+	}
+	/*==================================*/
+	/*Детальная страница тренера*/
+	/*==================================*/
+	.tren_det--middle {
+		padding-right: 15px;
+	}
+	.tren_det--info {
+		padding-top: 112px;
+		padding-right: 0;
+	}
+	.tren_det--info__presentation {
+		right: auto;
+		right: none;
+		right: unset;
+		left: 0;
+	}
+	.tren_det--right__user--form .label_norm--input span {
+		width: 6.75em;
+	}
+	.tren_det--right__user--form__repeat {
+		width: 8.4375em;
+		padding-right: 1em
+	}
+	.tren_det--right__user--form__link {
+		padding-left: 6.75em;
+	}
+	/*==================================*/
+	/*Детальная страница тренера - бронирование*/
+	/*==================================*/
+	.tren_det--right__booking h3 {
+		font-size: 20px;
+	}
+	.tren_det--right__booking--dates {
+		font-size: 13.4px;
+	}
+	.tren_det--right__booking--occupation {
+		font-size: 20px;
+	}
+	.tren_det--right__booking--times {
+		font-size: 20px;
+	}
+	.tren_det--right__booking--courts {
+		font-size: 20px;
+	}
+	.tren_det--right__booking--footer {
+		font-size: 18px;
+	}
+	/*==================================*/
+	/*Основные настройки пользователей*/
+	/*==================================*/
+	.user__settings--right {
+		max-width: 20.16666666666667em;
+	}
+	.user--edit_photo--image {
+		width: 287px;
+		height: 287px;
+	}
+}
+@media(max-width: 991px){
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.navigation--logo {
+		margin-right: 15px
+	}
+	.navigation--left li:not(:last-child) {
+		margin-right: 15px
+	}
+	.footer .navigation--left {
+		margin-right: 15px;
+	}
+	.navigation--left li a {
+		font-size: 16px
+	}
+	.navigation--right .navigation--tel {
+		font-size: 16px
+	}
+	.navigation--right .navigation--tel:not(:last-child) {
+		margin-right: 15px
+	}
+	.navigation--right .navigation--login {
+		width: 33px;
+		height: 31px;
+		color: transparent;
+		overflow: hidden;
+		padding: 0
+	}
+	.navigation--right .navigation--login span {
+		border-bottom: 0;
+		display: none
+	}
+	.navigation--right .navigation--login:after {
+		right: 0;
+		top: 0;
+		width: 33px;
+		height: 31px;
+	}
+	
+	.banner--satisfied {
+		width: 447px;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.banner--mini .banner--inner {
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding-top: 37px;
+		padding-bottom: 55px;
+	}
+	.banner--mini .banner--inner h2 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 35px;
+		padding-top: 0;
+		padding-right: 4px;
+		margin-bottom: 23px;
+	}
+	
+	.user_autorized {
+		font-size: 15px
+	}
+	/*==================================*/
+	/*Стартовая страница*/
+	/*==================================*/
+	.start--container {
+		min-height: 589px;
+		padding-top: 190px;
+	}
+	.start--section h1 {
+		font-size: 40px
+	}
+	.start--section p {
+		font-size: 20px
+	}
+	.start--form__label--name {
+		font-size: 17px;
+	}
+	.start--form__label--selected, .start--section p.start--form__label--selected {
+		font-size: 20px
+	}
+	.start--form__label--select {
+		height: 76px
+	}
+	.start--form__label--select:first-child , .start--form__label--select:nth-child(2) , .start--form__label--select:nth-child(3) {
+		width: 190px;
+	}
+	.start--form .btn--normal {
+		width: 150px;
+		height: 76px;
+		line-height: 76px;
+		font-size: 20px
+	}
+
+	
+	.middle--left {
+		max-width: 100%;
+		padding: 0 15px;
+		order: 2;
+	}
+	
+	
+	.middle--container {
+		padding-top: 37px;
+		padding-bottom: 69px;
+	}
+	.middle--right {
+		order: 1;
+		padding: 0 0 0 9px;
+		width: 100%;
+		margin-bottom: 0;
+		position: relative;
+		left: 0;
+		top: 0;
+		z-index: 1;
+	}
+	.middle--right img {
+		margin: 0 auto;
+	}
+	.middle--left {
+		position: relative;
+		left: 0;
+		top: 0;
+		z-index: 2;
+	}
+	.middle--left h2 {
+		font-size: 50px;
+		line-height: 52.01px;
+		margin: -33px 0 30px 0;
+		text-align: center
+	}
+	.middle--left h3 {
+		font-size: 30px;
+		text-align: center
+	}
+	.middle--left h3:not(:last-child) {
+		margin-bottom: 52px;
+	}
+	
+	.banner--satisfied__percent {
+		font-size: 61px;
+	}
+	.banner--satisfied__text {
+		font-size: 24px;
+	}
+	
+	
+	
+	.carousel--cities {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.section__cities .container {
+		max-width: 100%;
+		padding: 0
+	}
+	/*==================================*/
+	/*Все тренера*/
+	/*==================================*/
+	.filter_section--row .filter--col {
+		max-width: 50%
+	}
+	.filter--col:nth-child(2n) .label--dropdown {
+		left: auto;
+		left: none;
+		right: 0;
+	}
+	.tren--col {
+		width: 50%;
+	}
+	.tren--item {
+		max-width: 289.25px;
+		margin: 0 auto 20px;
+	}
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.workout--item__image {
+		width: 117px;
+		height: 117px;
+		left: 28px;
+	}
+	.workout--item__smooth {
+		width: 85px
+	}
+	
+	.workout--item {
+		padding-left: 174px;
+	}
+	.workout--item__top p {
+		font-size: 20px;
+	}
+	.workout--item__top button {
+		font-size: 13px;
+	}
+	.workout--item__middle {
+		padding-right: 0;
+		padding-bottom: 20px;
+		
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.workout--item__middle table {
+		margin-bottom: 20px;
+	}
+	.workout--item__middle table span {
+		font-size: 16px;
+	}
+	.workout--item__middle table b {
+		font-size: 16px;
+	}
+	.workout--item__middle time {
+		font-size: 12px;
+	}
+	.workout--item__middle .workout--status {
+		position: relative;
+		display: block;
+		max-width: 100%;
+		width: 100%
+	}
+	.workout--status__list li {
+		font-size: 16px
+	}
+	
+	.workout--item__message {
+		font-size: 14px;
+	}
+	.workout--item__bottom .workout--item__message {
+		margin-right: 2.222222222222222em;
+		margin-top: 0.3888888888888889em;
+	}
+	.workout--item__bottom p {
+		font-size: 14px;
+	}
+	.workout--item__location {
+		font-size: 14px;
+	}
+	/*==================================*/
+	/*Детальная страница тренера*/
+	/*==================================*/
+	.tren_det--row .tren_det--col:first-child {
+		margin-bottom: 40px
+	}
+	.tren_det--col {
+		width: 100%
+	}
+	.tren_det--top {
+		padding-right: 0
+	}
+	.tren_det--middle {
+		padding-right: 0
+	}
+	.tren_det--info {
+		padding-top: 0;
+		padding-right: 186px
+	}
+	.tren_det--info__presentation {
+		left: auto;
+		left: none;
+		left: unset;
+		right: 1.25em;
+		top: -0.5em;
+	}
+	.tren_det--right {
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	/*==================================*/
+	/*Основные настройки пользователей*/
+	/*==================================*/
+	.user__settings--left {
+		max-width: 100%;
+		border-right: 0;
+		border-right: unset;
+		border-right: none;
+		order: 2;
+	}
+	.user__settings--right {
+		max-width: 100%;
+		order: 1;
+		border-bottom: 1px solid #c8cbcf;
+		padding-bottom: 1.666666666666667em
+	}
+	.user--edit_photo--image {
+		margin: 0 auto 1.166666666666667em;
+	}
+	.user__settings--bottom {
+		order: 3;
+	}
+	/*==================================*/
+	/*Список тренеровок ( тренер )*/
+	/*==================================*/
+	.workout--item__right {
+		font-size: 15px;
+	}
+	.workout--item__left .workout--item__bottom {
+		font-size: 15px;
+	}
+	.workout--item__left .workout--item__bottom .btn--border {
+		font-size: 1em;
+	}
+	/*==================================*/
+	/*Диалоги*/
+	/*==================================*/
+	.dialog--bottom__inner input {
+		max-width: 515px
+	}
+	/*==================================*/
+	/*График тренеровок*/
+	/*==================================*/
+	.tren_graph--right__inner {
+		margin: 0 auto;
+		max-width: 480px;
+		width: 100%;
+	}
+	.tren_graph, .users_inner.tren_graph {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.tren_graph--left {
+		order: 2;
+		max-width: 100%
+	}
+	.tren_graph--right {
+		order: 1;
+		min-height: 1px;
+		max-width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.reg_indicators {
+		font-size: 14px;
+	}
+}
+@media(max-width: 767px){
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.mobile_menu--btn {
+		width: 85px;
+		height: 82px;
+		background-color: #4c87ff;
+		display: block;
+	}
+	.mobile_menu--btn span {
+		position: absolute;
+		left: 21px;
+		height: 2px;
+		background-color: #fff;
+		width: 38px;
+		top: 27px;
+		transition: opacity .35s, transform .35s;
+	}
+	.mobile_menu--btn span:nth-child(2) {
+		top: 38px;
+	}
+	.mobile_menu--btn span:nth-child(3) {
+		top: 49px;
+	}
+	
+	.header {
+		padding: 0;
+		border-bottom: 0;
+		box-shadow: 1px 1px 18px 0 rgba(34,31,25,0.59)!important;
+		background-color: #fff!important;
+	}
+	.header .container {
+		padding: 0;
+		max-width: 100%
+	}
+	.header .navigation--logo {
+		margin-right: 0
+	}
+	.header .navigation--logo img {
+		display: none;
+		width: 140px;
+		height: 33px;
+	}
+	.header .navigation--logo img.navigation--logo__mobile {
+		display: block;
+	}
+	.header .navigation--left ul {
+		display: none;
+	}
+	.header .navigation--right .navigation--tel {
+		display: none;
+	}
+	.navigation--right .navigation--login {
+		width: 84px;
+		height: 82px;
+		border-left: 1px solid #d5dbe5
+	}
+	.navigation--right .navigation--login:after , .start--section .navigation--right .navigation--login:after {
+		right: 25px;
+		top: 24px;
+		background-image: url(../img/svg/login-mobile.svg);
+	}
+	
+	
+	
+	
+	.label--dropdown {
+		width: 100%
+	}
+	
+	.modal--login {
+		bottom: -15px;
+		right: 15px;
+		max-width: 90%;
+	}
+	.mini--modal__container:before {
+		right: 22px;
+	}
+	
+	.custom--select .label--dropdown__price {
+		padding: 12px 20px 31px 24px;
+		background-color: #fff;
+		box-shadow: 0 3px 21px 0 rgba(0,0,0,0.35);
+		border-bottom-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+	.custom--select .label--dropdown__name {
+		display: block;
+	}
+	
+	.custom--select .price--range__value {
+		padding-top: 9px;
+		padding-right: 5px;
+		margin-bottom: 10px;
+	}
+	.custom--select .price--range__value input {
+		font-size: 18px;
+		min-width: 40%;
+	}
+	
+	.custom--select .price--range__bar {
+		height: 7px;
+	}
+	.custom--select .price--range__bar--line {
+		height: 7px;
+	}
+	.custom--select .price--range__bar--circle {
+		width: 20px;
+		height: 20px;
+	}
+	
+	.user_sidebar {
+		display: none;
+	}
+	
+	.user_autorized {
+		width: 84px;
+		height: 82px;
+		border-left: 1px solid #d5dbe5;
+		margin-right: 0;
+		font-size: 25px;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		padding: 18px 0;
+	}
+	.user_autorized--photo:after {
+		right: -0.5em
+	}
+	.user_autorized--left {
+		display: none;
+	}
+	/*==================================*/
+	/*Мобильное меню*/
+	/*==================================*/
+	.mobile__menu.active {
+		transform: translateX(0);
+	}
+	.mobile__menu.active:before {
+		content: '';
+		position: absolute;
+		top: -1px;
+		left: 0;
+		right: 0;
+		height: 1px;
+		box-shadow: 1px 1px 18px 0 rgba(34,31,25,0.59);
+	}
+	.mobile__menu.active ~ nav .mobile_menu--btn span:nth-child(1) {
+		transform: rotate(45deg);
+		left: 23px;
+		top: 40px;
+	}
+	.mobile__menu.active ~ nav .mobile_menu--btn span:nth-child(2) {
+		opacity: 0;
+	}
+	.mobile__menu.active ~ nav .mobile_menu--btn span:nth-child(3) {
+		transform: rotate(-45deg);
+		left: 23px;
+		top: 40px;
+	}
+	.mobile__menu.active ~ nav .navigation--right {
+		visibility: hidden;
+	}
+	
+	.mobile__menu--user {
+		display: block;
+		position: relative;
+		left: 0;
+		top: 0;
+		padding: 7px 30px 0 205px;
+		margin-bottom: 70px;
+	}
+	.mobile__menu--user__photo {
+		display: block;
+		width: 127px;
+		height: 127px;
+		border: 3px solid #fff;
+		box-shadow: 0 7px 13px 0 rgba(0,0,0,0.24);
+		border-radius: 100%;
+		overflow: hidden;
+		
+		position: absolute;
+		left: 63px;
+		top: 0;
+	}
+	.mobile__menu--user__avatar {
+		display: block;
+		width: 121px;
+		height: 121px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.mobile__menu--user span {
+		display: block;
+		width: 100%;
+		color: #90959f;
+		font-size: 26.31px;
+		line-height: 1.250095020904599em;
+		letter-spacing: 0.025em;
+		padding-left: 0.6081337894336754em;
+		padding-top: 0.1900418091980236em;
+		padding-right: 1.254275940706956em
+	}
+	.mobile__menu--user h3 {
+		display: block;
+		width: 100%;
+		color: #000000;
+		font-size: 36.18px;
+		line-height: 1.060530679933665em;
+		font-weight: 500;
+		padding-left: 0.4145936981757877em;
+		padding-right: 0.912106135986733em
+	}
+	.mobile__menu--user p , .start--section .mobile__menu--user p {
+		display: block;
+		width: 100%;
+		color: #000000;
+		font-size: 24px;
+		line-height: 1.2em;
+		text-align: left;
+		padding-right: 0;
+		letter-spacing: 0;
+		font-weight: 400
+	}
+	.start--section .mobile__menu--user p a , .start--section .mobile__menu--user p button , .mobile__menu--user p a , .mobile__menu--user p button {
+		display: inline;
+		color: #4c87ff;
+		font-size: 1em;
+		line-height: 1.2em;
+		font-weight: 400
+	}
+	
+	.mobile__menu--links {
+		display: block;
+		border-top: 1px solid #d5dbe5;
+	}
+	.mobile__menu--links:not(:last-child) {
+		margin-bottom: 66px;
+	}
+	.mobile__menu--link {
+		display: block;
+		border-bottom: 1px solid #d5dbe5;
+		list-style: none;
+		line-height: 0;
+		padding: 15px 17px 20px 65px;
+	}
+	.mobile__menu--link a {
+		display: block;
+		font-weight: 500;
+		color: #000000;
+		line-height: 1.25em;
+		font-size: 29.6px;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.mobile__menu--link a:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background: url(../img/svg/arrow--right_black.svg) center no-repeat;
+		background-size: 100% 100%;
+		width: 0.2364864864864865em;
+		height: 0.3716216216216216em;
+	}
+	.mobile__menu--link a span {
+		display: inline-block;
+		position: relative;
+		left: 0;
+		top: 0;
+		padding-right: 60px;
+	}
+	.mobile__menu--link a span:after {
+		content: attr(data-message_count);
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 2.008608321377331em;
+		height: 1.626016260162602em;
+		background: url(../img/svg/new--message.svg) center no-repeat;
+		background-size: 100% 100%;
+		letter-spacing: 0.025em;
+		color: #fff;
+		font-size: 0.7064189189189189em;
+		text-align: center;
+		line-height: 1.243424198947872em;
+	}
+	
+	.mobile__exit--link:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background: url(../img/svg/logout.svg) center no-repeat;
+		background-size: 100% 100%;
+		width: 0.8911819887429644em;
+		height: 0.8911819887429644em;
+		left: 3.095684803001876em;
+	}
+	.mobile__exit--link , .start--section a.mobile__exit--link {
+		display: block;
+		color: #f06265;
+		font-size: 21.32px;
+		line-height: 1.2em;
+		position: relative;
+		left: 0;
+		top: 0;
+		font-weight: 400;
+		padding-left: 4.549718574108818em;
+	}
+	
+	
+	.mobile__menu--bottom {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-align: center;
+		align-items: center;
+		padding-top: 68px;
+	}
+	.mobile__menu--bottom .btn--normal {
+		padding: 0 3.464285714285714em;
+		margin-bottom: 0.6785714285714286em;
+	}
+	.mobile__menu--bottom .navigation--tel , .header .mobile__menu--bottom .navigation--right .navigation--tel {
+		display: block;
+		color: #8e939d;
+		font-size: 20px;
+		letter-spacing: 0.025em;
+		line-height: 3.1em;
+		font-weight: 400
+	}
+	.mobile__menu--bottom .socials a , .start--section .mobile__menu--bottom .socials a {
+		color: #8e939d;
+	}
+	.mobile__menu--bottom nav , .header .mobile__menu--bottom nav {
+		margin-bottom: 9px;
+	}
+	/*==================================*/
+	/*Стартовая страница*/
+	/*==================================*/
+	.start--container {
+		padding-top: 133px;
+		min-height: 100px;
+		padding-bottom: 31px;
+	}
+	.start--section h1 {
+		font-size: 45px;
+		line-height: 38px;
+		padding: 0 15px;
+	}
+	.start--form {
+		background-color: transparent;
+		padding: 0 17px;
+		max-width: 480px;
+		border-radius: 0;
+		margin-bottom: 117px;
+	}
+	.start--form__label--select:first-child, .start--form__label--select:nth-child(2), .start--form__label--select:nth-child(3) {
+		width: 100%;
+		border-right: 0;
+		background-color: #fff;
+	}
+	.start--form__label--select:first-child {
+		border-top-right-radius: 8px;
+	}
+	.start--form__label--select:nth-child(3) {
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+	.start--form__label--select:not(:last-child) {
+		margin-bottom: 6px
+	}
+	.start--form__label--select {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		
+		height: 75px;
+		
+		padding-top: 20px;
+		padding-left: 20px!important;
+		padding-right: 22px!important;
+	}
+	
+	.start--form__label--name {
+		font-size: 21px;
+		min-width: 93px;
+	}
+	.start--form__label--selected, .start--section p.start--form__label--selected {
+		font-size: 22px;
+		padding-top: 2px;
+	}
+	
+	.start--form__label--select__price.start--form__label--select {
+		height: auto;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		padding-top: 8px;
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.start--form__label--select__price .start--form__label--name {
+		min-width: 100%;
+		padding-left: 20px;
+		padding-right: 23px;
+	}
+	.start--form__label--select__price .start--form__label--selected, .start--section .start--form__label--select__price p.start--form__label--selected {
+		display: none;
+		padding: 0;
+	}
+	.start--form__label--selected:after {
+		width: 15px;
+		height: 9px;
+		top: 15px;
+	}
+	.start--form__label--select__price .label--dropdown {
+		left: 0;
+		bottom: 0;
+		transform: translateY(0);
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+	.label--dropdown__price {
+		box-shadow: none;
+		box-shadow: 0;
+		border-radius: 0;
+		background: transparent;
+		padding: 9px 24px 33px 25px;
+	}
+	.label--dropdown__name, .start--section p.label--dropdown__name {
+		display: none;
+	}
+	
+	.price--range {
+		width: 100%
+	}
+	.price--range__value {
+		position: relative;
+		left: 0;
+		top: 0;
+		padding: 0;
+		margin-bottom: 24px;
+	}
+	.price--range__value input {
+		min-width: 173.68px;
+		height: 41.87px;
+		text-align: left;
+		border: 1px solid #d5dbe5;
+		text-align: center!important;
+		width: 40%;
+		font-size: 27.91px;
+		letter-spacing: 0.025em;
+		border-radius: 2px;
+	}
+	.price--range__value:before {
+		content: '—';
+		order: 2;
+		color: #000000;
+		font-size: 19.03px;
+		line-height: 24.11px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		font-weight: 500;
+	}
+	
+	.price--range__bar {
+		height: 9px;
+	}
+	.price--range__bar--line {
+		height: 9px;
+	}
+	.price--range__bar--circle {
+		width: 27px;
+		height: 27px
+	}
+	
+
+	.start--form .btn--normal {
+		margin-top: 9px;
+		width: 100%;
+		border-radius: 8px;
+		height: 88px;
+		line-height: 88px;
+		font-size: 35px;
+	}
+	
+	.start--section p {
+		font-size: 24px;
+		line-height: 30px;
+		padding-right: 9px
+	}
+	
+	.section__cities {
+		padding-bottom: 63px;
+	}
+	
+	.banner--large .banner--inner {
+		padding-top: 99px;
+	}
+	.banner--inner h2 {
+		font-size: 45px;
+		line-height: 41.01px;
+		margin-bottom: 28px;
+	}
+	.banner--inner h3 {
+		margin-bottom: 36px;
+	}
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.workout--item {
+		padding-left: 70px;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+	.workout--item__image {
+		width: 100px;
+		height: 100px;
+		top: 20px;
+		left: 20px
+	}
+	.workout--item__smooth {
+		width: 55px
+	}
+	.workout--item__top {
+		min-height: 100px;
+		padding-left: 70px;
+		padding-right: 65px;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-align: center;
+		align-items: center;
+		-ms-flex-line-pack: center;
+		align-content: center;
+	}
+	.workout--item__top button {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.workout--status p {
+		font-size: 14px
+	}
+	.workout--item__bottom {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.workout--item__bottom .workout--item__message {
+		margin-right: 0;
+		margin-top: 0;
+		width: 100%;
+		order: 2;
+	}
+	.workout--item__message {
+		font-size: 14px;
+	}
+	.workout--item__bottom--right {
+		order: 1;
+		margin-bottom: 15px
+	}
+	.workout--item__bottom p {
+		font-size: 18px;
+	}
+	.workout--item__location {
+		font-size: 18px;
+	}
+	/*==================================*/
+	/*Детальная страница тренера*/
+	/*==================================*/
+	.tren_det--info {
+		padding-top: 112px;
+		padding-right: 0;
+	}
+	.tren_det--info__presentation {
+		right: auto;
+		right: none;
+		right: unset;
+		left: 0;
+	}
+	.tren_det--right_info p , .tren_det--city p , .tren_det--right_info span {
+		text-shadow: 0 0 8px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.5);
+	}
+	.tren_det--photo , .tren_det--city p {
+		box-shadow: 0 7px 13px 0 rgba(0,0,0,0.48);
+		background-color: rgba(76, 135, 255,0.35);
+	}
+	.tren_det--background div {
+		z-index: 1;
+	}
+	.tren_det--background:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 2;
+		background: linear-gradient(transparent, #fff);
+	}
+	/*==================================*/
+	/*Основные настройки пользователей*/
+	/*==================================*/
+	.user__settings--left {
+		font-size: 18px;
+	}
+	.user__settings--right {
+		font-size: 16px;
+	}
+	/*==================================*/
+	/*Список тренеровок ( тренер )*/
+	/*==================================*/
+	.user__navBar {
+		font-size: 14px
+	}
+	.workout--list__trener .workout--item {
+		padding-left: 20px
+	}
+	.workout--item__left {
+		padding-right: 0;
+		width: 100%;
+		margin-bottom: 20px
+	}
+	
+	.workout--item__left .workout--item__top {
+		min-height: 1px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.workout--item__right {
+		width: 100%;
+		padding-top: 0
+	}
+	.workout--item__right--informer {
+		position: relative;
+		top: 0;
+		display: block;
+		margin-bottom: 15px
+	}
+	/*==================================*/
+	/*Диалоги*/
+	/*==================================*/
+	.dialog--list .dialog--item , .dialog--full .dialog--item {
+		padding-left: 4.87em;
+	}
+	.dialog--item__photo-blur {
+		display: none;
+	}
+	.dialog--item__photo , .dialog--full .dialog--item__photo{
+		left: 0.75em;
+	}
+	.dialog--inner {
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 15px;
+	}
+	.dialog--bottom__inner {
+		font-size: 16px;
+	}
+	.dialog--bottom__inner input {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.dialog--bottom__inner .btn--normal {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.reg_indicators {
+		display: none;
+	}
+	.reg_tren--left__main {
+		font-size: 18px;
+		padding: 20px 30px 43px 30px
+	}
+	.reg_tren--left__main--2 {
+		padding: 1.6em 0 1em 0
+	}
+	.reg_tren--left__main--2 .price__ocupation--row {
+		padding-left: 1.234567901234568em;
+		padding-right: 1.234567901234568em;
+	}
+	.reg_tren--left__main--2 .group_width_title {
+		padding: 0 1.234567901234568em 0 1.234567901234568em;
+	}
+	
+	.reg_tren--left__main--3 .user--edit_photo {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-align: center;
+		align-items: center;
+		padding-right: 0
+	}
+	.reg_tren--left__main--3 .user--edit_photo .tren_graph--right__informer {
+		position: relative;
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		order: 2;
+		padding-left: 4.25em;
+		padding-top: 0;
+		margin-bottom: 1em
+	}
+	.reg_tren--left__main--3 .user--edit_photo--image {
+		order: 1;
+	}
+	.reg_tren--left__main--3 .user--edit_photo .btn--light {
+		order: 3;
+	}
+	/*==================================*/
+	/*Регистрация пользователя*/
+	/*==================================*/
+	.page--reg_user .start--section h1 {
+		font-size: 28px;
+	}
+	.user_reg--form {
+		font-size: 18px;
+		max-width: 290px;
+	}
+	.user_reg--form .label_norm--input {
+		width: 100%;
+	}
+}
+@media(max-width: 603px){
+	/*==================================*/
+	/*Модальные окна*/
+	/*==================================*/
+	.modal-container {
+		width: 100%;
+		margin: 0;
+		border-radius: 0;
+	}
+}
+@media(max-width: 580px){
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.tren_det--right__user--form .label_norm--input {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.label_norm--input span , .tren_det--right__user--form .label_norm--input span {
+		width: 100%;
+		margin-bottom: 0.7em;
+	}
+	/*==================================*/
+	/*Стартовая страница*/
+	/*==================================*/
+	.footer , .start--section ~ .footer {
+		padding-top: 54px;
+		padding-bottom: 26px;
+	}
+	.footer .container {
+		padding: 0
+	}
+	.footer .navigation--logo {
+		padding-left: 14px;
+		margin-bottom: 51px;
+	}
+	.footer .navigation--logo img {
+		width: 171px;
+		height: 40px;
+	}
+	
+	.footer .navigation--left {
+		margin-right: 0;
+		width: 100%;
+		border-top: 1px solid #dadada;
+		margin-bottom: 43px;
+	}
+	.footer .navigation--left ul {
+		width: 100%
+	}
+	.footer .navigation--left li:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 1px
+	}
+	.footer .navigation--left li {
+		width: 100%;
+		
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-ms-flex-align: center;
+		align-items: center;
+		padding: 11px 10px 16px 26px;
+		border-bottom: 1px solid #d5dbe5
+	}
+	.footer .navigation--left li a {
+		font-size: 24px
+	}
+	.footer .navigation--right .navigation--tel {
+		font-size: 20px
+	}
+	.footer .navigation--right {
+		width: 100%;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding-left: 31px;
+		padding-right: 15px;
+	}
+	
+	.footer nav {
+		margin-bottom: 52px;
+	}
+	.footer .socials {
+		padding-left: 14px;
+	}
+	/*==================================*/
+	/*Детальная страница тренера*/
+	/*==================================*/
+	.tren_det--right__user--form__repeat {
+		width: 100%;
+		margin-bottom: 0.875em;
+	}
+	.tren_det--right__user--form__repeat ~ input, .tren_det--right__user--form .label_norm--input .tren_det--right__user--form__repeat ~ input {
+		width: 100%
+	}
+	.tren_det--right__user--form__link:not(:last-child) {
+		padding-left: 0
+	}
+	.tren_det--info__item {
+		width: 100%;
+		padding-right: 0;
+		padding-bottom: 15px;
+	}
+	.tren_det--info__item:before {
+		width: 100%;
+		bottom: auto;
+		bottom: none;
+		bottom: unset;
+		height: 1px;
+		top: 0
+	}
+	.tren_det--info__item:not(:first-child) {
+		padding-left: 0
+	}
+	.tren_det--table__info {
+		font-size: 16px;
+	}
+	.tren_det--classes {
+		font-size: 20px;
+	}
+	.tren_det--description {
+		font-size: 18px;
+	}
+	.tren_det--right__user {
+		font-size: 20px
+	}
+	.tren_det--courts {
+		font-size: 16px;
+	}
+	/*==================================*/
+	/*Диалоги*/
+	/*==================================*/
+	.dialog--item {
+		font-size: 16px
+	}
+	/*==================================*/
+	/*Регистрация пользователя*/
+	/*==================================*/
+	
+}
+@media(max-width: 575px) {
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.banner--medium .banner--inner {
+		padding: 30px 0 40px 0;
+	}
+	.banner--medium .banner--inner h2 {
+		font-size: 23.5px;
+	}
+	.banner--medium .banner--inner .btn--normal {
+		font-size: 19px;
+	}
+	/*==================================*/
+	/*Все тренера*/
+	/*==================================*/
+	.filter_section .container {
+		padding: 0 11px
+	}
+	.filter_section--row .filter--col {
+		max-width: 100%
+	}
+	.tren .container {
+		padding: 20.5px;
+	}
+	.tren--row {
+		margin: 0;
+	}
+	.tren--col {
+		padding: 0;
+		width: 100%
+	}
+	
+	.custom--select .label--dropdown__price {
+		background-color: #fff;
+		box-shadow: 0 3px 21px 0 rgba(0,0,0,0.35);
+	}
+	.custom--select .label--dropdown__name {
+		display: block;
+		margin-bottom: 21px;
+	}
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.users_inner {
+		padding: 35px 15px
+	}
+	.users_inner--title {
+		font-size: 26px;
+	}
+	.workout--item {
+		padding-left: 20px;
+	}
+	.workout--item__smooth {
+		width: 100%;
+		height: 150px;
+	}
+	.workout--item__smooth div {
+		z-index: 1;
+	}
+	.workout--item__smooth:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 2;
+		background: linear-gradient(transparent, #fff);
+	}
+	.workout--item__image {
+		box-shadow: 0 7px 13px 0 rgba(0,0,0,0.48);
+	}
+	.workout--item__top {
+		z-index: 2;
+		padding-right: 0;
+		padding-top: 20px;
+		padding-left: 115px;
+	}
+	.workout--item__top p {
+		text-shadow: 0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5);
+	}
+	.workout--item__top button {
+		top: 0;
+		transform: translateY(0);
+		text-shadow: 0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5) ,0 0 8px rgba(255,255,255,0.5);
+	}
+	
+	
+	.workout--status__list li {
+		padding: 0.15em 0 0.15em 2.15em;
+		text-align: left;
+	}
+	.workout--status__indicator {
+		right: auto;
+		right: none;
+		right: unset;
+		left: 1px;
+	}
+	.workout--status__list li:after {
+		right: auto;
+		right: none;
+		right: unset;
+		left: 0.7em;
+	}
+	.workout--status p {
+		text-align: left;
+	}
+	
+	
+	.workout--item__middle td:first-child:not(:last-child) {
+		width: 149px
+	}
+	.workout--item__middle table {
+		order: 2;
+		margin-bottom: 0;
+	}
+	.workout--item__middle .workout--status {
+		order: 1;
+		margin-bottom: 20px;
+	}
+	.workout--item__bottom p {
+		font-size: 14px;
+	}
+	.workout--item__location {
+		font-size: 14px;
+	}
+	.workout--item__bottom {
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.workout--item__bottom .workout--item__message {
+		width: 50%;
+		margin-right: 2.222222222222222em;
+		margin-top: 0.3888888888888889em;
+		order: 1;
+		padding-right: 1em
+	}
+	.workout--item__bottom--right {
+		order: 2;
+		margin-bottom: 0;
+		width: 50%;
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.reg__title {
+		font-size: 24px;
+	}
+	.tren_det--right__user--form__repeat ~ input {
+		order: 1;
+		margin-bottom: 1em
+	}
+	.reg_tren--left__main .tren_det--right__user--form__repeat {
+		order: 2;
+		width: 100%
+	}
+}
+@media(max-width: 520px){
+	/*==================================*/
+	/*Детальная страница тренера - бронирование*/
+	/*==================================*/
+	.tren_det--right__booking--month {
+		width: 100%
+	}
+	.tren_det--right__booking--occupation {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.tren_det--right__booking--occupation__title {
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 0.6666666666666667em;
+	}
+	.tren_det--right__booking--occupation .custom__select {
+		width: 100%
+	}
+	.tren_det--right__booking--footer {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.tren_det--right__booking--footer__left {
+		margin-bottom: 1em;
+		margin-top: 1em;
+		width: 100%;
+	}
+	/*==================================*/
+	/*График тренеровок*/
+	/*==================================*/
+	.tren_graph--right__inner {
+		max-width: 358px;
+		padding-bottom: 0;
+	}
+	.tren_graph--right__time {
+		font-size: 14px;
+	}
+	.tren_graph--right__times {
+		font-size: 14px
+	}
+	.tren_graph--right__footer {
+		font-size: 20px
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.reg_tren--right {
+		font-size: 20px;
+	}
+	.form_with_icon {
+		font-size: 16px
+	}
+	.form_with_icon input {
+		height: 2.75em;
+		line-height: 2.75em;
+		font-size: 1em;
+		padding-left: 0 0.95em;
+	}
+	/*==================================*/
+	/*Модальные окна*/
+	/*==================================*/
+	.modal-container {
+		padding: 49px 15px 53px 15px;
+	}
+}
+@media(max-width: 485px){
+	/*==================================*/
+	/*Основные настройки пользователей*/
+	/*==================================*/
+	.user__settings--left {
+		font-size: 16px;
+	}
+	.user__settings--right {
+		font-size: 14px
+	}
+	/*==================================*/
+	/*График тренеровок*/
+	/*==================================*/
+	.tren_graph--left {
+		font-size: 14px;
+	}
+	.tren_graph--right__info {
+		font-size: 18px;
+	}
+	.btn--copy {
+		padding-right: 5px
+	}
+}
+@media(max-width: 479px){
+	/*==================================*/
+	/*Вспомогательные элементы*/
+	/*==================================*/
+	.mobile_menu--btn {
+		width: 57px;
+		height: 55px
+	}
+	.mobile_menu--btn span {
+		left: 14px;
+		width: 25px;
+		top: 18px
+	}
+	.mobile_menu--btn span:nth-child(2){
+		top: 25px;
+	}
+	.mobile_menu--btn span:nth-child(3){
+		top: 32px;
+	}
+	.header .navigation--logo img {
+		width: 92px;
+		height: 22px;
+	}
+	.navigation--right .navigation--login:after, .start--section .navigation--right .navigation--login:after {
+		width: 22px;
+		height: 21px;
+
+		right: 17px;
+		top: 16px;
+	}
+	.navigation--right .navigation--login {
+		height: 55px;
+		width: 56px
+	}
+	
+	.banner--satisfied {
+		min-width: 298px;
+		width: 298px;
+		padding: 15px 30px 11px 77px;
+		min-height: 84px;
+	}
+	.banner--satisfied:before {
+		left: 14px;
+		top: 12px;
+		width: 55px;
+		height: 58px;
+	}
+	.banner--satisfied__percent {
+		font-size: 41px
+	}
+	.banner--satisfied__text {
+		font-size: 16px;
+		padding-left: 7px;
+	}
+	
+	.btn--normal {
+		font-size: 19px;
+		padding: 0 24px;
+		line-height: 1.1em;
+	}
+	
+	.banner--large .container {
+		padding: 0 11px;
+	}
+	.banner--large .banner--inner {
+		padding-top: 66px;
+		min-height: 371px;
+	}
+	.banner--inner h2 {
+		line-height: 0.9113333333333333em;
+		font-size: 30.25px;
+		padding: 0 15px;
+		margin-bottom: 19px;
+	}
+	.banner--inner h3 {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	
+	.banner--mini .banner--inner {
+		padding: 23px 19px 35px;
+	}
+	.banner--mini .banner--inner h2 {
+		font-size: 23.5px;
+		padding-left: 0;
+		padding-right: 0;
+		line-height: 1.234042553191489em;
+		margin-bottom: 14px;
+	}
+	.banner--mini .btn--normal {
+		padding: 0 0.9473684210526316em;
+	}
+	
+	.label--dropdown {
+		min-width: 298px
+	}
+	
+	.modal--login {
+		max-width: none;
+		max-width: unset;
+		max-width: auto;
+		left: 5px;
+		right: 5px;
+		min-width: none;
+		min-width: unset;
+		min-width: auto;
+	}
+	.mini--modal__container {
+		padding: 29px 20px 19px
+	}
+	.mini--modal__container:before {
+		right: 17px
+	}
+	
+	.user_autorized {
+		height: 55px;
+		width: 56px;
+		font-size: 16px;
+		padding: 14px 0;
+	}
+	/*==================================*/
+	/*Мобильное меню*/
+	/*==================================*/
+	.mobile__menu.active ~ nav .mobile_menu--btn span:nth-child(1) {
+		left: 15px;
+		top: 26px;
+	}
+	.mobile__menu.active ~ nav .mobile_menu--btn span:nth-child(3) {
+		left: 15px;
+		top: 26px;
+	}
+	.mobile__menu {
+		top: 55px;
+		height: calc(100% - 55px);
+		padding-top: 33px;
+	}
+	.mobile__menu--user {
+		padding: 5px 15px 0 137px;
+		margin-bottom: 47px;
+	}
+	.mobile__menu--user__photo {
+		left: 42px;
+		width: 85px;
+		height: 85px;
+	}
+	.mobile__menu--user__avatar {
+		width: 79px;
+		height: 79px;
+	}
+	.mobile__menu--user span {
+		font-size: 17.4px;
+	}
+	.mobile__menu--user h3 {
+		font-size: 24px;
+	}
+	.mobile__menu--user p, .start--section .mobile__menu--user p {
+		font-size: 16px;
+		margin-bottom: -2px
+	}
+	.mobile__menu--link {
+		padding: 11px 11px 13px 43px;
+	}
+	.mobile__menu--link a {
+		font-size: 19.5px
+	}
+	.mobile__menu--link a span {
+		padding-right: 41px;
+	}
+	.mobile__exit--link, .start--section a.mobile__exit--link {
+		font-size: 14.32px;
+	}
+	.mobile__menu--links:not(:last-child) {
+		margin-bottom: 42px;
+	}
+	.mobile__menu--bottom {
+		padding-top: 46px;
+	}
+	.mobile__menu--bottom .navigation--tel, .header .mobile__menu--bottom .navigation--right .navigation--tel {
+		font-size: 13.5px;
+	}
+	.mobile__menu--bottom nav, .header .mobile__menu--bottom nav {
+		margin-bottom: 6px;
+	}
+	/*==================================*/
+	/*Стартовая страница*/
+	/*==================================*/
+	.start--container {
+		padding-top: 88px;
+		padding-bottom: 16px;
+	}
+	.start--section h1 {
+		font-size: 30px;
+		line-height: 0.8444444444444444em;
+		margin-bottom: 28px;
+	}
+	
+	.start--form {
+		padding: 0 11px;
+		margin-bottom: 73px;
+		max-width: 320px;
+	}
+	.start--form__label--select {
+		padding-top: 13px;
+		padding-left: 13px!important;
+		padding-right: 15px!important;
+		height: 50px;
+	}
+	.start--form__label--name {
+		font-size: 15px;
+		min-width: 60px;
+	}
+	.start--form__label--selected, .start--section p.start--form__label--selected {
+		font-size: 16px;
+		padding-top: 0
+	}
+	.start--form__label--selected:after {
+		width: 10px;
+		height: 6px;
+		top: 10px;
+	}
+	.start--form__label--select:not(:last-child) {
+		margin-bottom: 4px;
+	}
+	
+	.start--form__label--select__price .label--dropdown {
+		min-width: 100%
+	}
+	.start--form__label--select__price .start--form__label--name {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+	.start--form__label--select__price.start--form__label--select {
+		padding-top: 5px;
+	}
+	.label--dropdown__price {
+		padding: 6px 17px 22px 17px;
+	}
+	.price--range__value input {
+		min-width: 115.68px;
+		height: 27.87px;
+		font-size: 18.91px;
+	}
+	.price--range__value:before {
+		font-size: 17.03px;
+		line-height: 0;
+	}
+	
+	.price--range__value {
+		margin-bottom: 16px
+	}
+	
+	.price--range__bar , .price--range__bar--line {
+		height: 5px;
+	}
+	.price--range__bar--circle {
+		width: 18px;
+		height: 18px;
+	}
+	
+	.start--form .btn--normal {
+		margin-top: 6px;
+		height: 59px;
+		line-height: 59px;
+		font-size: 23px;
+	}
+	
+	.start--section p {
+		font-size: 16px;
+		padding-right: 7px;
+	}
+	
+	
+	.middle--container {
+		padding-top: 24px
+	}
+	.middle--right {
+		padding-left: 6px
+	}
+	.middle--right img {
+		max-width: 287px
+	}
+	
+	.middle--left {
+		padding: 0 11px;
+	}
+	.middle--left h2 {
+		font-size: 33.5px;
+		line-height: 1.0402em;
+		margin-top: -19px;
+		margin-bottom: 19px;
+	}
+	.middle--left h3 {
+		font-size: 20px;
+	}
+	.middle--left h3:not(:last-child) {
+		margin-bottom: 35px;
+	}
+	
+	
+	.middle--container {
+		padding-bottom: 44px;
+	}
+	
+	.section__cities {
+		padding-bottom: 41px
+	}
+	.carousel--cities a {
+		padding: 0 5px;
+	}
+	.city--item {
+		height: 175px;
+		width: 182px;
+		padding-bottom: 24px
+	}
+	.city--item p {
+		font-size: 16px;
+	}
+	.city--item span {
+		font-size: 12px;
+	}
+	
+	
+	.footer , .start--section ~ .footer {
+		padding-top: 36px;
+		padding-bottom: 13px
+	}
+	.footer .navigation--logo {
+		padding-left: 11px;
+		margin-bottom: 34px;
+	}
+	.footer .navigation--logo img {
+		width: 113px;
+		height: 27px;
+	}
+	.footer .navigation--left {
+		margin-bottom: 27px;
+	}
+	.footer .navigation--left li {
+		padding: 6px 10px 12px 21px;
+	}
+	.footer .navigation--left li a {
+		font-size: 16px
+	}
+	.footer .navigation--right {
+		padding-left: 27px;
+	}
+	.footer .navigation--right .navigation--tel {
+		font-size: 13px;
+	}
+	.footer nav {
+		margin-bottom: 35px;
+	}
+	.footer .socials {
+		padding-left: 10px;
+	}
+	.socials .vk {
+		font-size: 9px;
+	}
+	.socials .twitter {
+		font-size: 12px;
+	}
+	.socials .facebook {
+		font-size: 13px;
+	}
+	.socials a:not(:last-child) {
+		margin-right: 13px;
+	}
+	.socials a.twitter:not(:last-child) {
+		margin-right: 12px;
+	}
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.users_inner {
+		padding: 35px 15px;
+	}
+	.workout--item__bottom {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.workout--item__bottom .workout--item__message {
+		order: 2;
+		width: 100%;
+		margin-right: 0;
+	}
+	.workout--item__bottom--right {
+		width: 100%;
+		order: 1;
+		margin-bottom: 20px;
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.page--reg_tren .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.reg_tren--left__main {
+		font-size: 16px;
+	}
+	.reg_tren--right .btn--normal {
+		line-height: 2.5em;
+	}
+}
+@media(max-width: 400px){
+	/*==================================*/
+	/*Личный кабинет*/
+	/*==================================*/
+	.workout--item__middle td:first-child:not(:last-child) {
+		width: 125px;
+	}
+	.workout--item__middle table span {
+		font-size: 14px;
+	}
+	.workout--item__middle table b {
+		font-size: 14px;
+	}
+	/*==================================*/
+	/*Детальная страница тренера*/
+	/*==================================*/
+	.tren_det--main .container {
+		padding: 0 15px
+	}
+	.tren_det--photo {
+		display: block;
+		position: relative;
+		top: 0;
+		margin-bottom: 20px
+	}
+	.tren_det--right__user--btn {
+		width: 100%
+	}
+	.tren_det--top {
+		padding-left: 0;
+		padding-top: 0
+	}
+	.label_norm--input input {
+		min-width: 100%
+	}
+	/*==================================*/
+	/*Основные настройки пользователей*/
+	/*==================================*/
+	.custom_select--top.custom_select--top__small .label--checkbox {
+		padding: 0.8333333333333333em 0.8333333333333333em 0.7777777777777778em 3.833333333333333em;
+	}
+	.custom_select--top.custom_select--top__small .label--checkbox__indicator {
+		display: block;
+	}
+	.inline--label_input {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.inline--label_input--name {
+		padding-right: 0;
+		width: 100%
+	}
+	.inline--label_input input {
+		padding-top: 0;
+		margin-top: 0.75em;
+	}
+	.inline--label_input.inline--label_input--big .inline--label_input--button + input {
+		margin-top: 0.75em;
+		padding-top: 0;
+	}
+	.inline--label_input input {
+		width: 100%;
+		max-width: 100%
+	}
+	.inline--label_input.inline--label_input--big .inline--label_input--button + input {
+		max-width: 75%;
+	}
+	.inline--label_input--button {
+		width: 25%
+	}
+	.custom_select--top__small {
+		max-width: 100%;
+	}
+	.custom_select--top__group .custom_select--top:not(:last-child) {
+		margin-right: 0
+	}
+	.custom_select--top__small + .custom_select--top {
+		max-width: 100%
+	}
+	.custom_select--top__group .custom_select--top:not(:last-child) , .custom_select--top__small + .custom_select--top:not(:last-child) {
+		margin-bottom: 0.5em;
+	}
+	
+	.user--edit_photo--image {
+		width: 71.75vw;
+		height: 71.75vw;
+	}
+	/*==================================*/
+	/*Список тренеровок ( тренер )*/
+	/*==================================*/
+	.workout--item__left .workout--item__bottom {
+		font-size: 12px;
+		min-height: 1px;
+	}
+	.workout--item__right--info .workout--item__message {
+		font-size: 12px
+	}
+	/*==================================*/
+	/*Диалоги*/
+	/*==================================*/
+	.dialog--item__right {
+		width: 4.166666666666667em;
+	}
+	.dialog--item__left {
+		max-width: 65%
+	}
+	.dialog--inner {
+		font-size: 14px
+	}
+	.dialog--bottom {
+		padding: 8px 11px
+	}
+	/*==================================*/
+	/*График тренеровок*/
+	/*==================================*/
+	.tren_graph--right__times--col {
+		width: 50%
+	}
+	.graph_select--name {
+		line-height: 1em
+	}
+	/*==================================*/
+	/*Регистрация тренера*/
+	/*==================================*/
+	.reg_tren--left .form_with_icon {
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+@media(max-height: 550px) {
+	body.modal--open {
+		height: 200%
+	}
+}
