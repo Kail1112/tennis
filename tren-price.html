@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<title>WOW Tennis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="styles/css/media.css" media="all" />
+		
+		<script type="text/javascript" src="styles/js/main.js"></script>
+	</head>
+	<body>
+	
+		<header class="header">
+			<div class="container">
+
+				<nav>
+					<button class="mobile_menu--btn"><span></span><span></span><span></span></button>
+					<div class="navigation--left">
+						<a href="#" class="navigation--logo">
+							<img src="styles/img/svg/logo--header.svg" alt="" />
+							<img src="styles/img/svg/logo--header.svg" alt="" class="navigation--logo__mobile" />
+						</a>
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<a href="tel:+79637671982" class="navigation--tel">+7 (963) 767 19 82</a>
+						<button class="navigation--login"><span>Войти</span></button>
+					</div>
+				</nav>
+			
+				<div class="mini--modal modal--login">
+					<div class="mini--modal__container">
+						<form>
+							<input type="text" name="" placeholder="Номер Вашего телефона">
+							<input type="password" name="" placeholder="Пароль">
+							<button class="btn--small">Войти</button>
+							
+							<div class="modal--links">
+								<a href="#">Регистрация</a>
+								<a href="#">Забыли пароль?</a>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			
+			</div>
+			
+		</header>
+			
+		<div class="filter_section">
+			<div class="container">
+				<h2>Только лучшие тренеры по теннису</h2>
+				<div class="filter_section--row">
+					<div class="filter--col">
+						<div class="custom--select">
+							<p class="custom--select__selector">Москва</p>
+							
+							<div class="label--dropdown">
+								<div class="label--dropdown__select">
+									<div class="label--dropdown__select--count">
+										<p>2 Выбрано</p>
+										<button class="btn--light">Очистить</button>
+									</div>
+									
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Москва</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Санкт-Петербург</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Новосибирск</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Казань</span>
+									</label>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="filter--col">
+						<div class="custom--select">
+							<p class="custom--select__selector">Район</p>
+							
+							<div class="label--dropdown">
+								<div class="label--dropdown__select">
+									<div class="label--dropdown__select--count">
+										<p>2 Выбрано</p>
+										<button class="btn--light">Очистить</button>
+									</div>
+									
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Москва</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Санкт-Петербург</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Новосибирск</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Казань</span>
+									</label>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="filter--col">
+						<div class="custom--select">
+							<p class="custom--select__selector">Вид занятия</p>
+							
+							<div class="label--dropdown">
+								<div class="label--dropdown__select">
+									<div class="label--dropdown__select--count">
+										<p>2 Выбрано</p>
+										<button class="btn--light">Очистить</button>
+									</div>
+									
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Одиночное</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox" checked>
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Групповое <sub>(до 5 чел.)</sub></span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Обучение взлослых</span>
+									</label>
+									<label class="label--checkbox">
+										<input type="checkbox">
+										<span class="label--checkbox__indicator"></span>
+										<span class="label--checkbox__name">Обучение детей</span>
+									</label>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="filter--col">
+						<div class="custom--select custom--select__active">
+							<p class="custom--select__selector">Цена в час</p>
+							
+							<div class="label--dropdown">
+								<div class="label--dropdown__price">
+									<p class="label--dropdown__name">Выберите ценовой диапазон</p>
+									
+									<div class="price--range">
+										<div class="price--range__value">
+											<input type="text" value="2900р.">
+											<input type="text" value="6900р.">
+										</div>
+										
+										<div class="price--range__bar">
+											<button class="price--range__bar--circle" style="left: 49px;"></button>
+											<div class="price--range__bar--line" style="right: 0;left: 57px;"></div>
+											<button class="price--range__bar--circle"></button>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tren">
+			<div class="container">
+				<div class="tren--row">
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								<p>Евгений Семенов</p>
+								<span>34, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЮВАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--2.jpg)"></div>
+								<p>Ольга Васильева</p>
+								<span>25 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЦАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--3.jpg)"></div>
+								<p>Наталья Кожухова</p>
+								<span>27 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЗАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--4.jpg)"></div>
+								<p>Антон Морозов</p>
+								<span>34 года, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, САО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								<p>Евгений Семенов</p>
+								<span>34, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЮВАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--2.jpg)"></div>
+								<p>Ольга Васильева</p>
+								<span>25 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЦАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--3.jpg)"></div>
+								<p>Наталья Кожухова</p>
+								<span>27 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЗАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--4.jpg)"></div>
+								<p>Антон Морозов</p>
+								<span>34 года, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, САО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								<p>Евгений Семенов</p>
+								<span>34, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЮВАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--2.jpg)"></div>
+								<p>Ольга Васильева</p>
+								<span>25 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЦАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--3.jpg)"></div>
+								<p>Наталья Кожухова</p>
+								<span>27 лет, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, ЗАО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="tren--col">
+						<a href="#" class="tren--item">
+							<div class="tren--item__top">
+								<div class="tren--item__photo" style="background-image: url(styles/img/temp/tren--4.jpg)"></div>
+								<p>Антон Морозов</p>
+								<span>34 года, Москва</span>
+							</div>
+							<div class="tren--item__bottom">
+								<div class="tren--item__bottom--info">
+									<p>ЮАО, САО, ВАО</p>
+									<span>Одиночное занятие•Групповое занятие•Обучение взлослых •Обучение детей</span>
+								</div>
+								<div class="tren--item__bottom--price">
+									<p><b>1 200</b> руб в час</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="load_more">
+						<span>Вы посмотрели 116 из 258 тренеров</span>
+						<div class="load_more--progress">
+							<div style="left:0;right:120px;"></div>
+						</div>
+						<button class="btn--grey">загрузить еще</button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="banner--medium" style="background-image: url(styles/img/temp/banner--medium_1.jpg)">
+			<div class="container">
+				<div class="banner--inner">
+					<h2>Вы тренер? Заработайте на этом</h2>
+					<button class="btn--normal">Заполнить анкету</button>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<nav>
+					<a href="#" class="navigation--logo">
+						<img src="styles/img/svg/logo--footer.svg" alt="" />
+					</a>
+					<div class="navigation--left">
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<a href="tel:+79637671982" class="navigation--tel">+7 (963) 767 19 82</a>
+					</div>
+				</nav>
+				
+				<div class="socials">
+					<a href="#" class="vk"><i class="wow--tennis-vk"></i></a>
+					<a href="#" class="twitter"><i class="wow--tennis-twitter"></i></a>
+					<a href="#" class="facebook"><i class="wow--tennis-facebook"></i></a>
+				</div>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>

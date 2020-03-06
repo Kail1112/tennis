@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<title>WOW Tennis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="styles/css/media.css" media="all" />
+		
+		<script type="text/javascript" src="styles/js/main.js"></script>
+	</head>
+	<body>
+	
+		<header class="header">
+			<div class="container">
+
+				<nav>
+					<button class="mobile_menu--btn"><span></span><span></span><span></span></button>
+					<div class="navigation--left">
+						<a href="#" class="navigation--logo">
+							<img src="styles/img/svg/logo--header.svg" alt="" />
+							<img src="styles/img/svg/logo--header.svg" alt="" class="navigation--logo__mobile" />
+						</a>
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<div class="user_autorized">
+							<div class="user_autorized--left">
+								<p>Владимир Потапов</p>
+								<a href="#">мое расписание</a>
+							</div>
+							<div class="user_autorized--photo" data-message_count="12" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+						</div>
+					</div>
+				</nav>
+			
+				<div class="mini--modal modal--login">
+					<div class="mini--modal__container">
+						<form>
+							<input type="text" name="" placeholder="Номер Вашего телефона">
+							<input type="password" name="" placeholder="Пароль">
+							<button class="btn--small">Войти</button>
+							
+							<div class="modal--links">
+								<a href="#">Регистрация</a>
+								<a href="#">Забыли пароль?</a>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			
+			</div>
+			
+		</header>
+		
+		<div class="users">
+			<div class="container">
+				<div class="users--row">
+					<div class="user_sidebar">
+						<div class="user_sidebar--top">
+							<div class="mobile__menu--user">
+								<div class="mobile__menu--user__photo">
+									<div class="mobile__menu--user__avatar" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								</div>
+								
+								<span>Здравствуйте,</span>
+								<h3>Владимир Потапов</h3>
+							</div>
+							
+							<div class="tren_balance">
+								<p>Баланс: <b>23500 р.</b></p>
+								<button class="btn--small">пополнить</button>
+							</div>
+							
+							<ul class="mobile__menu--links">
+								<li class="mobile__menu--link">
+									<a href="#">Мои тренировки</a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span class="menu--links__normal_info" data-message_count="5">Заявки на занятия</span></a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span data-message_count="12">Диалоги</span></a>
+								</li>
+								<li class="mobile__menu--link mobile__menu--link__active">
+									<a href="#">Мой профиль</a>
+								</li>
+							</ul>
+						</div>
+						<div class="user_sidebar--bottom">
+							<a href="#" class="user_sidebar--logo"><img src="styles/img/svg/logo--footer.svg" alt="" /></a>
+							<a href="#" class="mobile__exit--link">Выйти</a>
+						</div>
+					</div>
+					
+					<div class="users_inner">
+						<h2 class="users_inner--title">Мой профиль</h2>
+						
+						<div class="user__settings">
+							<div class="user__settings--left">
+								<label class="inline--label_input">
+									<span class="inline--label_input--name">Ваше Имя</span>
+									<input type="text" placeholder="Ваше Имя" />
+								</label>
+								<label class="inline--label_input inline--label_input--big">
+									<span class="inline--label_input--name">Номер телефона</span>
+									<button class="inline--label_input--button">Ред.</button>
+									<input type="text" placeholder="+7 (963) 154 23 35" />
+								</label>
+								<div class="user__settings--middle">
+									<div class="custom_select--top">
+										<span class="custom_select--top__name">Город</span>
+										<p class="custom_select--top__selector">Москва</p>
+										<div class="label--dropdown">
+											<div class="label--dropdown__select">
+												<label class="label--checkbox">
+													<input type="radio" name="test_3" checked>
+													<span class="label--checkbox__indicator"></span>
+													<span class="label--checkbox__name">Москва</span>
+												</label>
+												<label class="label--checkbox">
+													<input type="radio" name="test_3">
+													<span class="label--checkbox__indicator"></span>
+													<span class="label--checkbox__name">Санкт-Петербург</span>
+												</label>
+												<label class="label--checkbox">
+													<input type="radio" name="test_3">
+													<span class="label--checkbox__indicator"></span>
+													<span class="label--checkbox__name">Новосибирск</span>
+												</label>
+												<label class="label--checkbox">
+													<input type="radio" name="test_3">
+													<span class="label--checkbox__indicator"></span>
+													<span class="label--checkbox__name">Казань</span>
+												</label>
+												
+											</div>
+										</div>
+									</div>
+									<label class="custom_input--top">
+										<span class="custom_input--top__name">Районы (макс. 4)</span>
+										<button class="custom_input--top__plus"></button>
+										<input type="text" placeholder="Районы (макс. 4)">
+									</label>
+									<label class="custom_input--top">
+										<span class="custom_input--top__name">Образование</span>
+										<input type="text" placeholder="Образование">
+									</label>
+									<div class="custom_select--top__group">
+										<div class="custom_select--top custom_select--top__small">
+											<span class="custom_select--top__name">Стаж</span>
+											<p class="custom_select--top__selector">12 лет</p>
+											<div class="label--dropdown">
+												<div class="label--dropdown__select">
+													<label class="label--checkbox">
+														<input type="radio" name="test_2">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">10 лет</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_2">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">11 лет</sub></span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_2" checked >
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">12 лет</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_2">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">13 лет</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="custom_select--top">
+											<span class="custom_select--top__name">Звание или разряд</span>
+											<p class="custom_select--top__selector">Кандидат в мастера спорта</p>
+											<div class="label--dropdown">
+												<div class="label--dropdown__select">
+													<label class="label--checkbox">
+														<input type="radio" name="test_1">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">Кандидат в мастера спорта</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_1">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">Кандидат в мастера спорта 1</sub></span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_1" checked >
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">Кандидат в мастера спорта 2</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio" name="test_1">
+														<span class="label--checkbox__indicator"></span>
+														<span class="label--checkbox__name">Кандидат в мастера спорта 3</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="price__ocupation">
+									<div class="price__ocupation--row">
+										<span class="price__ocupation--title">Вид занятия</span>
+										<span class="price__ocupation--title">Цена часа игры</span>
+									</div>
+									<div class="price__ocupation--row">
+										<div class="price__ocupation--td">
+											<label class="label--checkbox">
+												<input type="checkbox" checked>
+												<span class="label--checkbox__indicator"></span>
+												<span class="label--checkbox__name">Одиночное занятие</span>
+											</label>
+										</div>
+										<div class="price__ocupation--td">
+											<input type="text" value="1200 р." class="price__ocupation--input">
+										</div>
+									</div>
+									<div class="price__ocupation--row">
+										<div class="price__ocupation--td">
+											<label class="label--checkbox">
+												<input type="checkbox" checked>
+												<span class="label--checkbox__indicator"></span>
+												<span class="label--checkbox__name">Групповое <sub>(до 5 чел.)</sub></span>
+											</label>
+										</div>
+										<div class="price__ocupation--td">
+											<input type="text" value="2500 р." class="price__ocupation--input">
+										</div>
+									</div>
+									<div class="price__ocupation--row">
+										<div class="price__ocupation--td">
+											<label class="label--checkbox">
+												<input type="checkbox">
+												<span class="label--checkbox__indicator"></span>
+												<span class="label--checkbox__name">Обучение взлослых</span>
+											</label>
+										</div>
+										<div class="price__ocupation--td">
+											<input type="text" value="–––– р." class="price__ocupation--input">
+										</div>
+									</div>
+									<div class="price__ocupation--row">
+										<div class="price__ocupation--td">
+											<label class="label--checkbox">
+												<input type="checkbox">
+												<span class="label--checkbox__indicator"></span>
+												<span class="label--checkbox__name">Обучение детей</span>
+											</label>
+										</div>
+										<div class="price__ocupation--td">
+											<input type="text" value="–––– р." class="price__ocupation--input">
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="user__settings--right">
+								
+								<div class="user--edit_photo">
+								
+									<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 17407.5 17407.5" xmlns:xlink="http://www.w3.org/1999/xlink" class="user--edit_photo--image">
+										<defs>
+											<style type="text/css">
+												<![CDATA[
+													.str0 {stroke:#FEFEFE;stroke-width:50;stroke-miterlimit:22.9256;stroke-dasharray:100.000000 100.000000}
+													.fil1 {fill:none}
+													.fil2 {fill:#4C87FF;fill-rule:nonzero}
+													.fil0 {fill:#FEFEFE;fill-opacity:0.509804}
+												]]>
+											</style>
+											<clipPath id="id0">
+												<rect y="0.04" width="17407.46" height="17407.46"/>
+											</clipPath>
+										</defs>
+										<g id="Слой_x0020_1">
+											<g style="clip-path:url(#id0)">
+												<image id="user--photo" x="-0" y="0.04" width="17407.46" height="17407.46" xlink:href="styles\img\temp\user--trener.jpg"/>
+											</g>
+											<path id="background--opacity" class="fil0" d="M1491.3 8703.75c0,-3981.2 3229.12,-7208.59 7212.45,-7208.59 3983.33,0 7212.45,3227.39 7212.45,7208.59 0,3981.2 -3229.12,7208.59 -7212.45,7208.59 -3983.33,0 -7212.45,-3227.39 -7212.45,-7208.59zm29537.57 22561.7l0 -45123.4 -44650.24 0 0 45123.4 44650.24 0z"/>
+											<path id="white--border" class="fil1 str0" d="M6299.6 1495.16l0 4805.73 -4808.3 0m14424.9 0l-4808.3 0 0 -4805.73m0 14417.18l0 -4805.73 4808.3 0m-14424.9 0l4808.3 0 0 4805.73m0 -9611.45l4808.3 0 0 4805.72 -4808.3 0 0 -4805.72z"/>
+											<path id="blue--border" class="fil2" d="M1304.55 15596.88l185.44 0 0 -13786.26 -227.95 0 0 -548.58 540.92 0 0 231.79 13801.58 0 0 -231.79 540.92 0 0 548.58 -227.95 0 0 13786.26 227.95 0 0 548.58 -540.92 0 0 -231.79 -13801.58 0 0 231.79 -540.92 0 0 -548.58 42.51 0zm270.45 0l227.96 0 0 231.78 13801.58 0 0 -231.78 227.96 0 0 -13786.26 -227.96 0 0 -231.78 -13801.58 0 0 231.78 -227.96 0 0 13786.26zm142.94 85.01l-142.94 0 0 146.77 142.94 0 0 -146.77zm-227.95 0l-142.94 0 0 378.56 370.89 0 0 -146.78 -227.95 0 0 -231.78zm14570.46 0l-142.94 0 0 231.78 -227.95 0 0 146.78 370.89 0 0 -378.56zm-227.95 0l-142.94 0 0 146.77 142.94 0 0 -146.77zm227.95 -14334.84l-370.89 0 0 146.78 227.95 0 0 231.78 142.94 0 0 -378.56zm-370.89 378.56l142.94 0 0 -146.77 -142.94 0 0 146.77zm-13971.62 -378.56l-370.89 0 0 378.56 142.94 0 0 -231.78 227.95 0 0 -146.78zm0 378.56l0 -146.77 -142.94 0 0 146.77 142.94 0z"/>
+										</g>
+									</svg>
+									
+									<button class="btn--light">Изменить фото</button>
+									
+								</div>
+								
+								<div class="group_width_title">
+									<p class="group_width_title--name">Корты для тренировок</p>
+									<button>СК Юность</button>
+									<button class="custom_input--top__plus"></button>
+								</div>
+								<div class="group_width_title">
+									<p class="group_width_title--name">Дополнительная информация о мне:</p>
+									<textarea></textarea>
+								</div>
+								
+							</div>
+							
+							<div class="user__settings--bottom">
+								<button class="btn--normal">Сохранить изменения</button>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<nav>
+					<a href="#" class="navigation--logo">
+						<img src="styles/img/svg/logo--footer.svg" alt="" />
+					</a>
+					<div class="navigation--left">
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<a href="tel:+79637671982" class="navigation--tel">+7 (963) 767 19 82</a>
+					</div>
+				</nav>
+				
+				<div class="socials">
+					<a href="#" class="vk"><i class="wow--tennis-vk"></i></a>
+					<a href="#" class="twitter"><i class="wow--tennis-twitter"></i></a>
+					<a href="#" class="facebook"><i class="wow--tennis-facebook"></i></a>
+				</div>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>

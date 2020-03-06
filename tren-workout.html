@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<title>WOW Tennis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="styles/css/media.css" media="all" />
+		
+		<script type="text/javascript" src="styles/js/main.js"></script>
+	</head>
+	<body>
+	
+		<header class="header">
+			<div class="container">
+
+				<nav>
+					<button class="mobile_menu--btn"><span></span><span></span><span></span></button>
+					<div class="navigation--left">
+						<a href="#" class="navigation--logo">
+							<img src="styles/img/svg/logo--header.svg" alt="" />
+							<img src="styles/img/svg/logo--header.svg" alt="" class="navigation--logo__mobile" />
+						</a>
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<div class="user_autorized">
+							<div class="user_autorized--left">
+								<p>Владимир Потапов</p>
+								<a href="#">мое расписание</a>
+							</div>
+							<div class="user_autorized--photo" data-message_count="12" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+						</div>
+					</div>
+				</nav>
+			
+				<div class="mini--modal modal--login">
+					<div class="mini--modal__container">
+						<form>
+							<input type="text" name="" placeholder="Номер Вашего телефона">
+							<input type="password" name="" placeholder="Пароль">
+							<button class="btn--small">Войти</button>
+							
+							<div class="modal--links">
+								<a href="#">Регистрация</a>
+								<a href="#">Забыли пароль?</a>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			
+			</div>
+			
+		</header>
+		
+		<div class="users">
+			<div class="container">
+				<div class="users--row">
+					<div class="user_sidebar">
+						<div class="user_sidebar--top">
+							<div class="mobile__menu--user">
+								<div class="mobile__menu--user__photo">
+									<div class="mobile__menu--user__avatar" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								</div>
+								
+								<span>Здравствуйте,</span>
+								<h3>Владимир Потапов</h3>
+							</div>
+							
+							<div class="tren_balance">
+								<p>Баланс: <b>23500 р.</b></p>
+								<button class="btn--small">пополнить</button>
+							</div>
+							
+							<ul class="mobile__menu--links">
+								<li class="mobile__menu--link">
+									<a href="#">Мои тренировки</a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span class="menu--links__normal_info" data-message_count="5">Заявки на занятия</span></a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span data-message_count="12">Диалоги</span></a>
+								</li>
+								<li class="mobile__menu--link mobile__menu--link__active">
+									<a href="#">Мой профиль</a>
+								</li>
+							</ul>
+						</div>
+						<div class="user_sidebar--bottom">
+							<a href="#" class="user_sidebar--logo"><img src="styles/img/svg/logo--footer.svg" alt="" /></a>
+							<a href="#" class="mobile__exit--link">Выйти</a>
+						</div>
+					</div>
+					
+					<div class="users_inner">
+						<h2 class="users_inner--title">Заявки на занятия</h2>
+						
+						<div class="user__navBar">
+							<button class="user__navBar--btn active">активные (15)</button>
+							<button class="user__navBar--btn">Завершенные (7)</button>
+						</div>
+						
+						<div class="workout--list workout--list__trener">
+							<div class="workout--item">
+								<div class="workout--item__left">
+									<div class="workout--item__top">
+										<p>Валентина Шепилова</p>
+									</div>
+									<div class="workout--item__middle">
+										<table>
+											<tr>
+												<td><span>Дата тренировки:</span></td>
+												<td><b>20.04.19</b></td>
+											</tr>
+											<tr>
+												<td><span>Время тренировки:</span></td>
+												<td>
+													<time datetime="2019-03-21 19:30">19:30-20:30</time>
+													<time datetime="2019-03-21 21:00">21:00-22:00</time>
+												</td>
+											</tr>
+											<tr>
+												<td><span>Вид тренировки:</span></td>
+												<td><b>Одиночная</b></td>
+											</tr>
+											<tr>
+												<td><span>Общая стоимость:</span></td>
+												<td><b>4600 р.</b></td>
+											</tr>
+											<tr>
+												<td><span>Место проведения:</span></td>
+												<td><b>На выбор тренера</b></td>
+											</tr>
+										</table>
+										
+									</div>
+									<div class="workout--item__bottom">
+										<button class="btn--border btn--border__green btn--border__confirm_training">Подтвердить <br>тренировку</button>
+										<button class="btn--border btn--border__red">Отменить <br>тренировку</button>
+									</div>
+								</div>
+								<div class="workout--item__right">
+									
+									<div class="workout--item__right--informer">
+										<p>После подтверждения занятия с вашего баланса будет списан сервисный сбор в размере <b>8%</b> от стоимости тренировки</p>
+									</div>
+									
+									<div class="workout--item__right--info">
+										<p>Контактный телефон: <a href="#">+7 (***) *** ** **</a></p>
+										<span>Будет доступен после подтверждения Вами занятия</span>
+										<button class="workout--item__message disabled">Начать диалог</button>
+									</div>
+									
+								</div>
+							</div>
+							
+							<div class="workout--item">
+								<div class="workout--item__left">
+									<div class="workout--item__top">
+										<p>Валентина Шепилова</p>
+									</div>
+									<div class="workout--item__middle">
+										<table>
+											<tr>
+												<td><span>Дата тренировки:</span></td>
+												<td><b>20.04.19</b></td>
+											</tr>
+											<tr>
+												<td><span>Время тренировки:</span></td>
+												<td>
+													<time datetime="2019-03-21 19:30">19:30-20:30</time>
+													<time datetime="2019-03-21 21:00">21:00-22:00</time>
+												</td>
+											</tr>
+											<tr>
+												<td><span>Вид тренировки:</span></td>
+												<td><b>Одиночная</b></td>
+											</tr>
+											<tr>
+												<td><span>Общая стоимость:</span></td>
+												<td><b>4600 р.</b></td>
+											</tr>
+											<tr>
+												<td><span>Место проведения:</span></td>
+												<td><b>На выбор тренера</b></td>
+											</tr>
+										</table>
+										
+									</div>
+									<div class="workout--item__bottom">
+										<button class="btn--border btn--border__green btn--border__confirm_training confirmed">Подтверждена</button>
+									</div>
+								</div>
+								<div class="workout--item__right">
+								
+									<div class="workout--item__right--info">
+										<p>Контактный телефон: <a href="tel:+7 (963) 767 19 41">+7 (963) 767 19 41</a></p>
+										<span>Будет доступен после подтверждения Вами занятия</span>
+										<button class="workout--item__message">Начать диалог</button>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<nav>
+					<a href="#" class="navigation--logo">
+						<img src="styles/img/svg/logo--footer.svg" alt="" />
+					</a>
+					<div class="navigation--left">
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<a href="tel:+79637671982" class="navigation--tel">+7 (963) 767 19 82</a>
+					</div>
+				</nav>
+				
+				<div class="socials">
+					<a href="#" class="vk"><i class="wow--tennis-vk"></i></a>
+					<a href="#" class="twitter"><i class="wow--tennis-twitter"></i></a>
+					<a href="#" class="facebook"><i class="wow--tennis-facebook"></i></a>
+				</div>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>

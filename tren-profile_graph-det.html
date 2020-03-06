@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<title>WOW Tennis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="styles/css/main.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="styles/css/media.css" media="all" />
+		
+		<script type="text/javascript" src="styles/js/main.js"></script>
+	</head>
+	<body>
+	
+		<header class="header">
+			<div class="container">
+
+				<nav>
+					<button class="mobile_menu--btn"><span></span><span></span><span></span></button>
+					<div class="navigation--left">
+						<a href="#" class="navigation--logo">
+							<img src="styles/img/svg/logo--header.svg" alt="" />
+							<img src="styles/img/svg/logo--header.svg" alt="" class="navigation--logo__mobile" />
+						</a>
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<div class="user_autorized">
+							<div class="user_autorized--left">
+								<p>Владимир Потапов</p>
+								<a href="#">мое расписание</a>
+							</div>
+							<div class="user_autorized--photo" data-message_count="12" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+						</div>
+					</div>
+				</nav>
+			
+				<div class="mini--modal modal--login">
+					<div class="mini--modal__container">
+						<form>
+							<input type="text" name="" placeholder="Номер Вашего телефона">
+							<input type="password" name="" placeholder="Пароль">
+							<button class="btn--small">Войти</button>
+							
+							<div class="modal--links">
+								<a href="#">Регистрация</a>
+								<a href="#">Забыли пароль?</a>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			
+			</div>
+			
+		</header>
+		
+		<div class="users">
+			<div class="container">
+				<div class="users--row">
+					<div class="user_sidebar">
+						<div class="user_sidebar--top">
+							<div class="mobile__menu--user">
+								<div class="mobile__menu--user__photo">
+									<div class="mobile__menu--user__avatar" style="background-image: url(styles/img/temp/tren--1.jpg)"></div>
+								</div>
+								
+								<span>Здравствуйте,</span>
+								<h3>Владимир Потапов</h3>
+							</div>
+							
+							<div class="tren_balance">
+								<p>Баланс: <b>23500 р.</b></p>
+								<button class="btn--small">пополнить</button>
+							</div>
+							
+							<ul class="mobile__menu--links">
+								<li class="mobile__menu--link">
+									<a href="#">Мои тренировки</a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span class="menu--links__normal_info" data-message_count="5">Заявки на занятия</span></a>
+								</li>
+								<li class="mobile__menu--link">
+									<a href="#"><span data-message_count="12">Диалоги</span></a>
+								</li>
+								<li class="mobile__menu--link mobile__menu--link__active">
+									<a href="#">Мой профиль</a>
+								</li>
+							</ul>
+						</div>
+						<div class="user_sidebar--bottom">
+							<a href="#" class="user_sidebar--logo"><img src="styles/img/svg/logo--footer.svg" alt="" /></a>
+							<a href="#" class="mobile__exit--link">Выйти</a>
+						</div>
+					</div>
+					
+					<div class="users_inner tren_graph">
+						
+						<div class="tren_graph--left">
+							<div class="tren_graph--table">
+								<div class="tren_graph--table__head">
+									<div class="tren_graph--table__row">
+										<div class="tren_graph--row__left">
+											<button class="btn--remove"></button>
+										</div>
+										<div class="tren_graph--row__middle">
+											<button class="btn--copy active">Копировать расп.</button>
+											<button class="btn--insret">Вставить</button>
+										</div>
+									</div>
+								</div>
+								<div class="tren_graph--table__row active now_view">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox" checked>
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">13</span>Апреля, Ср
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">15</span>Апреля, Пт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+								<div class="tren_graph--table__row">
+									<div class="tren_graph--row__left">
+										<label class="label--checkbox">
+											<input type="checkbox">
+											<span class="label--checkbox__indicator"></span>
+										</label>
+									</div>
+									<div class="tren_graph--row__middle">
+										<a href="#" class="tren_graph--link">
+											<span class="booking__date">14</span>Апреля, Чт
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tren_graph--right">
+							<div class="tren_graph--right__inner">
+								<div class="tren_graph--right__inner--top">
+									<div class="tren_graph--right__time">
+										<div class="graph_select <!--active-->">
+											<span class="graph_select--name">Начало занятия</span>
+											<p class="graph_select--selector">19:00</p>
+											
+											<div class="label--dropdown">
+												<div class="label--dropdown__select">
+													<label class="label--checkbox">
+														<input type="radio" checked>
+														<span class="label--checkbox__name">19:00</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio">
+														<span class="label--checkbox__name">19:00</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio">
+														<span class="label--checkbox__name">19:00</span>
+													</label>
+													<label class="label--checkbox">
+														<input type="radio">
+														<span class="label--checkbox__name">19:00</span>
+													</label>
+													
+												</div>
+											</div>
+											
+										</div>
+										<p class="graph_select--delimiter">-</p>
+										<label class="graph_select">
+											<span class="graph_select--name">Конец занятия</span>
+											<input type="text" placeholder="20:00">
+										</label>
+										<button class="tren_graph--right__time--button"></button>
+									</div>
+									
+									<div class="tren_graph--right__times">
+										<p>Активное время</p>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button class="active">9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+										<div class="tren_graph--right__times--col">
+											<button>9:00-10:00</button>
+										</div>
+									</div>
+								</div>
+								
+								<div class="tren_graph--right__footer">
+									<button class="btn--normal">Сохранить изменения</button>
+									<button class="tren_graph--right__remove">Очистить расписание</button>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<nav>
+					<a href="#" class="navigation--logo">
+						<img src="styles/img/svg/logo--footer.svg" alt="" />
+					</a>
+					<div class="navigation--left">
+						<ul>
+							<li><a href="#">Тренеры</a></li>
+							<li><a href="#">Подобрать корт</a></li>
+							<li><a href="#">О сервисе</a></li>
+						</ul>
+					</div>
+					<div class="navigation--right">
+						<a href="tel:+79637671982" class="navigation--tel">+7 (963) 767 19 82</a>
+					</div>
+				</nav>
+				
+				<div class="socials">
+					<a href="#" class="vk"><i class="wow--tennis-vk"></i></a>
+					<a href="#" class="twitter"><i class="wow--tennis-twitter"></i></a>
+					<a href="#" class="facebook"><i class="wow--tennis-facebook"></i></a>
+				</div>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>
